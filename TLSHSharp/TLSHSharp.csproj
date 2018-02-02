@@ -1,7 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <RootNamespace>Palit.TLSHSharp</RootNamespace>
+    <Authors>Morgan Abel</Authors>
+    <Company>Palit, LLC</Company>
+    <Description>TLSH is a fuzzy matching library designed by Trend Micro. Given a byte stream with a minimum length of 256 characters (and a minimum amount of randomness), TLSH generates a hash value which can be used for similarity comparisons.</Description>
+    <RepositoryUrl>https://github.com/morganabel/TlshSharp</RepositoryUrl>
+    <PackageTags>Tlsh, Locality Sensitive Hashing</PackageTags>
   </PropertyGroup>
 
 </Project>
